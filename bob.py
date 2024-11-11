@@ -1,8 +1,11 @@
-import asyncio
+import os
 from telethon import TelegramClient, events
+import asyncio
 
-api_id = '28260542'
-api_hash = '5b0c43a7468e5382b66cc885cf8ccb17'
+# API_ID e API_HASH
+api_id = '29503551'  
+api_hash = '2977e176fa3c9a6cd41cc622a50b6533'
+
 session_name = 'spiderman'
 
 client = TelegramClient(session_name, api_id, api_hash)
