@@ -2,7 +2,6 @@ import os
 from telethon import TelegramClient, events
 import asyncio
 
-# API_ID e API_HASH
 api_id = '29503551'  
 api_hash = '2977e176fa3c9a6cd41cc622a50b6533'
 
@@ -12,7 +11,7 @@ client = TelegramClient(session_name, api_id, api_hash)
 
 group_list = []
 spam_message = ""
-spam_interval = 5  # Secondi
+spam_interval = 5  
 spam_task = None
 
 async def group_spam():
